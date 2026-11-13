@@ -12,5 +12,42 @@ public abstract class mahasiswa {
         this.email = email;
         this.umur = umur;
     }
-    
+
+    public String getNim(){
+        return nim;
+    }
+    public String getNama(){
+        return nama;
+    }
+    public String getEmail(){
+        return email;
+    }
+    public int getUmur(){
+        return umur;
+    }
+
+    @Override 
+    public void printAll() {
+        return 
+    }
+
+    @Override 
+    public void printByPk(StringprimaryKey) {
+        return 
+    }
+
+    @Override 
+    public void showInsertForm() {
+        return 
+    }
+
+    @Override 
+    public void showUpdateForm() {
+        return 
+    }
+
+    @Override 
+    public void promptDelete() {
+        return 
+    }
 }
