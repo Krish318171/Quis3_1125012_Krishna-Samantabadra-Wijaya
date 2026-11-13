@@ -13,6 +13,7 @@ public abstract class mahasiswa {
         this.umur = umur;
     }
 
+    
     public String getNim(){
         return nim;
     }
@@ -26,28 +27,6 @@ public abstract class mahasiswa {
         return umur;
     }
 
-    @Override 
-    public void printAll() {
-        return 
-    }
-
-    @Override 
-    public void printByPk(StringprimaryKey) {
-        return 
-    }
-
-    @Override 
-    public void showInsertForm() {
-        return 
-    }
-
-    @Override 
-    public void showUpdateForm() {
-        return 
-    }
-
-    @Override 
-    public void promptDelete() {
-        return 
-    }
+    
+    
 }
